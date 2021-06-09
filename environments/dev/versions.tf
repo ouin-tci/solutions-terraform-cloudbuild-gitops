@@ -12,7 +12,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-
 terraform {
   required_version = "~> 0.11.0"
+
+  required_providers {
+    google = "~> 2.20"
+  }
 }
